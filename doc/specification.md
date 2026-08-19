@@ -209,7 +209,7 @@ value.
 ### Form
 
 ```jsonc
-{ "op": "cmp.coalesce", "of": [<expression>, ...] }
+{ "op": "cmp.coalesce", "of": [<expression>, …] }
 ```
 
 ### How it evaluates
@@ -233,5 +233,6 @@ Reversi.
   walked in order. The condition never fired. Ordering opaque values would also mean
   putting "an opaque value that provides an order" into the value model itself, which is a
   concept the model does not otherwise need.
-- **No `cmp.between`.** It is `logic.and` over two of `cmp.lte`, and across five rule sets
-  range tests have not been common enough to be worth a second way to write one.
+- **No `cmp.between`.** It is `logic.and` over two of `cmp.lte`, and across the rule sets
+  written so far, range tests have not been common enough to be worth a second way to write
+  one.

@@ -12,7 +12,7 @@ namespace Rulealize.Plugin.Comparison
     /// <remarks>
     /// <para>
     /// Null-safe: neither side being null is an error, and values of different kinds are
-    /// simply unequal rather than a type fault. That tolerance is what lets Othello's flip
+    /// simply unequal rather than a type fault. That tolerance is what lets Reversi's flip
     /// detection be written without a bounds check.
     /// </para>
     /// <para>
