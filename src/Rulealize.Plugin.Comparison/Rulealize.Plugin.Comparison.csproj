@@ -14,7 +14,7 @@
 
   <PropertyGroup>
     <PackageId>Rulealize.Plugin.Comparison</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Reny</Authors>
     <Description>Equality, ordering and null tests for Rulealize rule sets: cmp.eq, cmp.lt, cmp.compare, cmp.isNull and friends.</Description>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Rulealize.Abstraction" Version="0.3.0" />
+    <PackageReference Include="Rulealize.Abstraction" Version="0.4.0" />
   </ItemGroup>
 
 </Project>

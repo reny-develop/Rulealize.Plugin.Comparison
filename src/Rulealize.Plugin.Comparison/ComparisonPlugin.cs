@@ -23,7 +23,7 @@ namespace Rulealize.Plugin.Comparison
     {
         /// <inheritdoc />
         public PluginManifest Manifest { get; } =
-            new("Rulealize.Plugin.Comparison", new Version(1, 0, 0), "cmp");
+            new("Rulealize.Plugin.Comparison", new Version(1, 0, 1), "cmp");
 
         /// <inheritdoc />
         public void Register(IPluginRegistry registry)
